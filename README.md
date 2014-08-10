@@ -1,4 +1,4 @@
-random-html-generator
+random-dom-generator
 =====================
 
 Random HTML generator. For testing. Or fun.
