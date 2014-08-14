@@ -1,0 +1,25 @@
+{
+  "name": "random-dom-generator",
+  "version": "0.0.1",
+  "description": "Random DOM elements generator. For testing. Or fun.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erykpiast/random-dom-generator.git"
+  },
+  "keywords": [
+    "random",
+    "dom",
+    "html",
+    "generator"
+  ],
+  "author": "Eryk Napierała <eryk.piast@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erykpiast/random-dom-generator/issues"
+  },
+  "homepage": "https://github.com/erykpiast/random-dom-generator"
+}
