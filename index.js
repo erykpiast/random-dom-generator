@@ -1,3 +1,24 @@
+function random(min, max) {
+    return Math.round(min + (Math.random() * (max - min)));
+}
+
+function createNode(tag, attrs) {
+    var node = document.createElement(tag);
+    
+    for(var attrName in attrs) {
+        if(attrs.hasOwnProperty(attrName)) {
+            node.setAttribute(attrName, attrs[attrName]);
+        }
+    }
+        
+    return node;
+}
+
+function createArray(len) {
+    return ((len * 10) - 1).toString(10).split('');
+}
+
+
 function randomDOM(root, amount, maxDepth, maxPerLevel, maxAttrs, tags, attrs) {
     if(amount > Math.pow(maxPerLevel, maxDepth)) {
         throw 'it is not possible to create ' + amount + ' nodes with ' + maxDepth + ' depth and ' + maxPerLevel + ' nodes per level';
