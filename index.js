@@ -16,8 +16,14 @@ module.exports = (function() {
         return node;
     }
     
-    function _createArray(len) {
-        return ((len * 10) - 1).toString(10).split('');
+    function _createArray(length, defaultValue) {
+        var arr = [ ];
+
+        while(length) {
+            arr[--length] = defaultValue;
+        }
+
+        return arr;
     }
     
     
