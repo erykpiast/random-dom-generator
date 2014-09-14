@@ -19,4 +19,4 @@ randomDOM(document.querySelector('#random'), 1000, 10, 20, 4, [ 'div' ], {
 will produce 1000 DIV elements with maximum 10 levels depth and 20 nodes per level. Each will have at most 4 attributes with one of passed values (ex. id1, id2 or id3 for id attribute).
 
 ### Demo ###
-http://jsbin.com/toxup/8
+http://jsbin.com/toxup/12
